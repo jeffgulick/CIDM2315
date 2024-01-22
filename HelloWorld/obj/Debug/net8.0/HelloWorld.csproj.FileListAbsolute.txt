@@ -12,3 +12,4 @@
 /home/jeffg/schoolProjects/CIDM2315/HelloWorld/obj/Debug/net8.0/HelloWorld.pdb
 /home/jeffg/schoolProjects/CIDM2315/HelloWorld/obj/Debug/net8.0/HelloWorld.genruntimeconfig.cache
 /home/jeffg/schoolProjects/CIDM2315/HelloWorld/obj/Debug/net8.0/ref/HelloWorld.dll
+/home/jeffg/schoolProjects/CIDM2315/HelloWorld/obj/Debug/net8.0/HelloWorld.sourcelink.json
