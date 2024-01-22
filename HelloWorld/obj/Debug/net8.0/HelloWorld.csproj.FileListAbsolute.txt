@@ -1,0 +1,14 @@
+/home/jeffg/schoolProjects/CIDM2315/HelloWorld/bin/Debug/net8.0/HelloWorld
+/home/jeffg/schoolProjects/CIDM2315/HelloWorld/bin/Debug/net8.0/HelloWorld.deps.json
+/home/jeffg/schoolProjects/CIDM2315/HelloWorld/bin/Debug/net8.0/HelloWorld.runtimeconfig.json
+/home/jeffg/schoolProjects/CIDM2315/HelloWorld/bin/Debug/net8.0/HelloWorld.dll
+/home/jeffg/schoolProjects/CIDM2315/HelloWorld/bin/Debug/net8.0/HelloWorld.pdb
+/home/jeffg/schoolProjects/CIDM2315/HelloWorld/obj/Debug/net8.0/HelloWorld.GeneratedMSBuildEditorConfig.editorconfig
+/home/jeffg/schoolProjects/CIDM2315/HelloWorld/obj/Debug/net8.0/HelloWorld.AssemblyInfoInputs.cache
+/home/jeffg/schoolProjects/CIDM2315/HelloWorld/obj/Debug/net8.0/HelloWorld.AssemblyInfo.cs
+/home/jeffg/schoolProjects/CIDM2315/HelloWorld/obj/Debug/net8.0/HelloWorld.csproj.CoreCompileInputs.cache
+/home/jeffg/schoolProjects/CIDM2315/HelloWorld/obj/Debug/net8.0/HelloWorld.dll
+/home/jeffg/schoolProjects/CIDM2315/HelloWorld/obj/Debug/net8.0/refint/HelloWorld.dll
+/home/jeffg/schoolProjects/CIDM2315/HelloWorld/obj/Debug/net8.0/HelloWorld.pdb
+/home/jeffg/schoolProjects/CIDM2315/HelloWorld/obj/Debug/net8.0/HelloWorld.genruntimeconfig.cache
+/home/jeffg/schoolProjects/CIDM2315/HelloWorld/obj/Debug/net8.0/ref/HelloWorld.dll
