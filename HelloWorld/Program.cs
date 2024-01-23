@@ -63,6 +63,12 @@ class Program
         Console.WriteLine($"a/b= {a1/b1}, Data type:{(a1/b1).GetType().Name}");
         Console.WriteLine($"a/c= {a1/c1}, Data Type: {(a1/c1).GetType().Name}");
 
+        int top = 1;
+        int bottom = 2;
+        int front = 3;
+        int result = top + bottom * front;
+        Console.WriteLine(result);
+
 
     }
 }
