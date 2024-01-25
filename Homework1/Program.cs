@@ -13,7 +13,9 @@ class Program
         // z = 4 * x * x + 3 * y;
 
         Console.WriteLine($"X = {X}, Y = {Y}\nThe value of Z is: {Z}");
-
+        
 
     }
+
 }
+
