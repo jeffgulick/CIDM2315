@@ -60,7 +60,7 @@ class Program
         if (num3 < smallest){
             smallest = num3;
         }
-        // Better solution using an array method:
+        // Better solution using Min method found in dontnet docs :
         // int[] numbers = {num1, num2, num3};
         // int smallest = numbers.Min();
         
