@@ -61,7 +61,7 @@ class Program
             smallest = num3;
         }
         // Better solution using an array method:
-        // int[] numbers = [num1, num2, num3];
+        // int[] numbers = {num1, num2, num3};
         // int smallest = numbers.Min();
         
         Console.WriteLine("The smallest number is: " + smallest);
