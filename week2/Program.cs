@@ -4,8 +4,8 @@ class Program
 {
     static void Main(string[] args)
     {
-         // Get User Input: Console.ReadLine() 
-        //get string input from keyboard
+        //  Get User Input: Console.ReadLine() 
+        // get string input from keyboard
         Console.WriteLine("Please input your name: ");
         string user_name = Console.ReadLine();
         Console.WriteLine("Please input your age: ");
