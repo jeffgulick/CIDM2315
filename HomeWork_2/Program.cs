@@ -46,11 +46,11 @@ class Program
         */
         
         Console.WriteLine("Please input the first number: ");
-        int num1 = Convert.ToInt32(Console.ReadLine());
+        int num1 = Convert.ToInt16(Console.ReadLine());
         Console.WriteLine("Please input the second number: ");
-        int num2 = Convert.ToInt32(Console.ReadLine());
+        int num2 = Convert.ToInt16(Console.ReadLine());
         Console.WriteLine("Please input the third number: ");
-        int num3 = Convert.ToInt32(Console.ReadLine());
+        int num3 = Convert.ToInt16(Console.ReadLine());
 
         int smallest = num1;
 
@@ -69,7 +69,7 @@ class Program
         /* Bonus: Write a C# program that takes as input a year and check if it is a leap year. */
 
         Console.WriteLine("Please input a year: ");
-        int year = Convert.ToInt32(Console.ReadLine());
+        int year = Convert.ToInt16(Console.ReadLine());
 
         if (year % 4 == 0 && year % 100 != 0){
             Console.WriteLine($"{year} is a leap year!");
