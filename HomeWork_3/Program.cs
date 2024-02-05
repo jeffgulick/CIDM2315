@@ -34,7 +34,7 @@ class Program
         int num2 = Convert.ToInt16(Console.ReadLine());
 
         for (int i = 1; i <= num2; i++) {
-            for (int j = 1; j <= num2-1; j++) {
+            for (int j = 1; j < num2; j++) {
                 Console.Write("#");
             }
             Console.WriteLine("#");
