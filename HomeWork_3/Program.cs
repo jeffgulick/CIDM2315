@@ -51,5 +51,24 @@ class Program
             }
             Console.WriteLine();
         }
+
+        // Bonus Question
+        Console.WriteLine("Bonus Question:");
+        Console.WriteLine("Assign an int value to N:");
+        int num4 = Convert.ToInt16(Console.ReadLine());
+
+        // Rows
+        for (int i =1; i <= num4; i++){
+
+            // Print spaces for each row
+            for (int j = 1; j <= num4-i; j++){
+                Console.Write(" ");
+            }
+            // Print the number for each row using the row number
+            for (int k = 1; k <= i; k++){
+                Console.Write(i);
+            }
+            Console.WriteLine();
+        }
     }
 }
