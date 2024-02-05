@@ -5,6 +5,7 @@ class Program
     static void Main(string[] args)
     {
         Console.WriteLine("HomeWork 3");
+        Console.WriteLine("Question 1: Check if N is prime or not");
 
         // Question 1
         Console.WriteLine("Intput an integer:");
@@ -28,6 +29,7 @@ class Program
         }
 
         // Question 2
+        Console.WriteLine("Question 2: Print a square of N*N");
         Console.WriteLine("Assign an int value to N:");
         int num2 = Convert.ToInt16(Console.ReadLine());
 
@@ -39,6 +41,7 @@ class Program
         }
 
         // Question 3
+        Console.WriteLine("Question 3: Print a right triangle of N*N");
         Console.WriteLine("Assign an int value to N:");
         int num3 = Convert.ToInt16(Console.ReadLine());
 
