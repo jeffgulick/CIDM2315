@@ -1,0 +1,15 @@
+/home/jeffg/schoolProjects/CIDM2315/week3/bin/Debug/net8.0/week3
+/home/jeffg/schoolProjects/CIDM2315/week3/bin/Debug/net8.0/week3.deps.json
+/home/jeffg/schoolProjects/CIDM2315/week3/bin/Debug/net8.0/week3.runtimeconfig.json
+/home/jeffg/schoolProjects/CIDM2315/week3/bin/Debug/net8.0/week3.dll
+/home/jeffg/schoolProjects/CIDM2315/week3/bin/Debug/net8.0/week3.pdb
+/home/jeffg/schoolProjects/CIDM2315/week3/obj/Debug/net8.0/week3.GeneratedMSBuildEditorConfig.editorconfig
+/home/jeffg/schoolProjects/CIDM2315/week3/obj/Debug/net8.0/week3.AssemblyInfoInputs.cache
+/home/jeffg/schoolProjects/CIDM2315/week3/obj/Debug/net8.0/week3.AssemblyInfo.cs
+/home/jeffg/schoolProjects/CIDM2315/week3/obj/Debug/net8.0/week3.csproj.CoreCompileInputs.cache
+/home/jeffg/schoolProjects/CIDM2315/week3/obj/Debug/net8.0/week3.sourcelink.json
+/home/jeffg/schoolProjects/CIDM2315/week3/obj/Debug/net8.0/week3.dll
+/home/jeffg/schoolProjects/CIDM2315/week3/obj/Debug/net8.0/refint/week3.dll
+/home/jeffg/schoolProjects/CIDM2315/week3/obj/Debug/net8.0/week3.pdb
+/home/jeffg/schoolProjects/CIDM2315/week3/obj/Debug/net8.0/week3.genruntimeconfig.cache
+/home/jeffg/schoolProjects/CIDM2315/week3/obj/Debug/net8.0/ref/week3.dll
