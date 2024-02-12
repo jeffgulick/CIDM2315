@@ -33,6 +33,10 @@ class Program
         {
             Console.WriteLine($"The largest number is: {num1}");
         }
+        else if (num1 == num2)
+        {
+            Console.WriteLine("The numbers are equal");
+        }
         else
         {
             Console.WriteLine($"The largest number is: {num2}");
