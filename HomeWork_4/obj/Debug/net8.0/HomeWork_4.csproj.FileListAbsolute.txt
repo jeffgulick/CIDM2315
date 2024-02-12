@@ -1,0 +1,15 @@
+/home/jeffg/schoolProjects/CIDM2315/HomeWork_4/bin/Debug/net8.0/HomeWork_4
+/home/jeffg/schoolProjects/CIDM2315/HomeWork_4/bin/Debug/net8.0/HomeWork_4.deps.json
+/home/jeffg/schoolProjects/CIDM2315/HomeWork_4/bin/Debug/net8.0/HomeWork_4.runtimeconfig.json
+/home/jeffg/schoolProjects/CIDM2315/HomeWork_4/bin/Debug/net8.0/HomeWork_4.dll
+/home/jeffg/schoolProjects/CIDM2315/HomeWork_4/bin/Debug/net8.0/HomeWork_4.pdb
+/home/jeffg/schoolProjects/CIDM2315/HomeWork_4/obj/Debug/net8.0/HomeWork_4.GeneratedMSBuildEditorConfig.editorconfig
+/home/jeffg/schoolProjects/CIDM2315/HomeWork_4/obj/Debug/net8.0/HomeWork_4.AssemblyInfoInputs.cache
+/home/jeffg/schoolProjects/CIDM2315/HomeWork_4/obj/Debug/net8.0/HomeWork_4.AssemblyInfo.cs
+/home/jeffg/schoolProjects/CIDM2315/HomeWork_4/obj/Debug/net8.0/HomeWork_4.csproj.CoreCompileInputs.cache
+/home/jeffg/schoolProjects/CIDM2315/HomeWork_4/obj/Debug/net8.0/HomeWork_4.sourcelink.json
+/home/jeffg/schoolProjects/CIDM2315/HomeWork_4/obj/Debug/net8.0/HomeWork_4.dll
+/home/jeffg/schoolProjects/CIDM2315/HomeWork_4/obj/Debug/net8.0/refint/HomeWork_4.dll
+/home/jeffg/schoolProjects/CIDM2315/HomeWork_4/obj/Debug/net8.0/HomeWork_4.pdb
+/home/jeffg/schoolProjects/CIDM2315/HomeWork_4/obj/Debug/net8.0/HomeWork_4.genruntimeconfig.cache
+/home/jeffg/schoolProjects/CIDM2315/HomeWork_4/obj/Debug/net8.0/ref/HomeWork_4.dll
