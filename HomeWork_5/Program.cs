@@ -29,11 +29,11 @@ class Program
         Console.WriteLine("Enter the fourth number: ");
         input4 = Convert.ToInt16(Console.ReadLine());
 
-        int largestNum2 = LargestOfFour(input1, input2, input3, input4);
+        int largestNum2 = ComputeMaxOfFour(input1, input2, input3, input4);
         Console.WriteLine($"a = {input1}; b = {input2}; c = {input3}; d = {input4};\nThe largest number is: {largestNum2}");
 
         //Creates an account
-        createAccount();
+        CreateAccount();
     }
 
     //returns largest of two numbers
@@ -50,7 +50,7 @@ class Program
     }
 
     //returns largest of four numbers
-    static int LargestOfFour(int input1, int input2, int input3, int input4)
+    static int ComputeMaxOfFour(int input1, int input2, int input3, int input4)
     {
         int max1, max2, max;
 
@@ -62,7 +62,7 @@ class Program
     }
 
     //creates account
-    static void createAccount()
+    static void CreateAccount()
     {
         Console.WriteLine("Enter your username: ");
         string username = Console.ReadLine();
@@ -75,7 +75,7 @@ class Program
         Console.WriteLine("Enter your birth year: ");
         int birth_year = Convert.ToInt16(Console.ReadLine());
 
-        bool age = checkAge(birth_year);
+        bool age = CheckAge(birth_year);
         
         if(age){
             if(password == password2){
@@ -92,7 +92,7 @@ class Program
     }
 
     //returns true if the age is 18 or older
-    static bool checkAge(int birth_year)
+    static bool CheckAge(int birth_year)
     {
         //found DateTime.Now.Year on the internet
         int current_year = DateTime.Now.Year;
