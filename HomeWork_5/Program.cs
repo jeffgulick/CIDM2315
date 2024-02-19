@@ -14,8 +14,7 @@ class Program
         input2 = Convert.ToInt16(Console.ReadLine());
 
         int largestNum1 = GetLargest(input1, input2);
-        Console.WriteLine($"a = {input1}; b = {input2}");
-        Console.WriteLine("The largest number is: " + largestNum1);
+        Console.WriteLine($"a = {input1}; b = {input2};\nThe largest number is: {largestNum1}");
 
         //Prints the largest of 4 numbers//
         Console.WriteLine("Enter the first number: ");
@@ -31,8 +30,10 @@ class Program
         input4 = Convert.ToInt16(Console.ReadLine());
 
         int largestNum2 = LargestOfFour(input1, input2, input3, input4);
-        Console.WriteLine($"a = {input1}; b = {input2}; c = {input3}; d = {input4}");
-        Console.WriteLine($"The largest number is: {largestNum2}");
+        Console.WriteLine($"a = {input1}; b = {input2}; c = {input3}; d = {input4};\nThe largest number is: {largestNum2}");
+
+        //Creates an account
+        createAccount();
     }
 
     //returns largest of two numbers
@@ -60,4 +61,50 @@ class Program
         return max;
     }
 
+    //creates account
+    static void createAccount()
+    {
+        Console.WriteLine("Enter your username: ");
+        string username = Console.ReadLine();
+
+        Console.WriteLine("Enter your password: ");
+        string password = Console.ReadLine();
+        Console.WriteLine("Please imput password again: ");
+        string password2 = Console.ReadLine();
+
+        Console.WriteLine("Enter your birth year: ");
+        int birth_year = Convert.ToInt16(Console.ReadLine());
+
+        bool age = checkAge(birth_year);
+        
+        if(age){
+            if(password == password2){
+                Console.WriteLine("Account created successfully");
+            }
+            else{
+                Console.WriteLine("Wrong password");
+            }
+        }
+        else{
+            Console.WriteLine("Could not create an account");
+        }
+     
+    }
+
+    //returns true if the age is 18 or older
+    static bool checkAge(int birth_year)
+    {
+        //found DateTime.Now.Year on the internet
+        int current_year = DateTime.Now.Year;
+        int age = current_year - birth_year;
+
+        if(age >= 18)
+        {
+            return true;
+        }
+        else
+        {
+            return false;
+        }
+    }
 }
