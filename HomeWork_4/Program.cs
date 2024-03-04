@@ -13,6 +13,8 @@ class Program
         Console.WriteLine();
 
         PrintShape(N, shape);
+        Console.WriteLine("Press any key to exit");
+        Console.ReadKey();
     }
 
     static void LargestValue()
