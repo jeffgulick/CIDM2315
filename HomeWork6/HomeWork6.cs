@@ -35,9 +35,9 @@ class Program
         s2.SetGrade(80);
         double s2Grade = s2.GetGrade();
 
-        Console.WriteLine($"Professor {p1.profName} teaches {p1.classTeach}, and earns a salary of: {p1.GetSalary()}\nProfessor {p2.profName} teaches {p2.classTeach}, and earns a salary of: {p2.GetSalary()}");
+        Console.WriteLine($"Professor {p1.profName} teaches {p1.classTeach}, and earns a salary of: ${p1.GetSalary()}\nProfessor {p2.profName} teaches {p2.classTeach}, and earns a salary of: ${p2.GetSalary()}");
         Console.WriteLine($"Student {s1.studentName} enrolls in {s1.classEnroll}, and the grade is: {s1.GetGrade()}\nStudent {s2.studentName} enrolls in {s2.classEnroll}, and the grade is: {s2.GetGrade()}");
-        Console.WriteLine($"The Salary difference between {p1.profName} and {p2.profName} is: {GetDifference(p1Salary, p2Salary)}\nThe total grade of {s1.studentName} and {s2.studentName} is: {GetTotal(s1Grade, s2Grade)}");
+        Console.WriteLine($"The Salary difference between {p1.profName} and {p2.profName} is: ${GetDifference(p1Salary, p2Salary)}\nThe total grade of {s1.studentName} and {s2.studentName} is: {GetTotal(s1Grade, s2Grade)}");
     }
 
     static double GetDifference (double num1, double num2)
