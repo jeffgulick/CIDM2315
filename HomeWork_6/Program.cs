@@ -1,7 +1,4 @@
-﻿using System.Reflection.Metadata.Ecma335;
-using System.Security.Cryptography;
-
-namespace HomeWork_6;
+﻿namespace HomeWork_6;
 
 class Program
 {
