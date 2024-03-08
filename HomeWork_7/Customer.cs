@@ -20,6 +20,7 @@ class Customer
 
     public void CompareAge(Customer objCustomer)
     {
+        
         if(objCustomer.cus_age > cus_age){
             Console.WriteLine($"{objCustomer.cus_name} is older.");
         }
@@ -29,6 +30,7 @@ class Customer
         else{
             Console.WriteLine($"{objCustomer.cus_name} and {cus_name} are the same age.");
         };
+        
     }
 
 }
