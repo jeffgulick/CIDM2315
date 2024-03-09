@@ -65,12 +65,12 @@ class Program
     static void CreateAccount()
     {
         Console.WriteLine("Enter your username: ");
-        string username = Console.ReadLine();
+        string? username = Console.ReadLine();
 
         Console.WriteLine("Enter your password: ");
-        string password = Console.ReadLine();
+        string? password = Console.ReadLine();
         Console.WriteLine("Please imput password again: ");
-        string password2 = Console.ReadLine();
+        string? password2 = Console.ReadLine();
 
         Console.WriteLine("Enter your birth year: ");
         int birth_year = Convert.ToInt16(Console.ReadLine());
