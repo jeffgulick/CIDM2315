@@ -1,7 +1,7 @@
 class Student 
 {
-    public string studentName;
-    public string classEnroll;
+    public string studentName = string.Empty;
+    public string classEnroll = string.Empty;
     // public double studentGrade {set; get;}
     private double studentGrade;
 
