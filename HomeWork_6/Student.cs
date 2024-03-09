@@ -14,4 +14,9 @@ class Student
     {
         return studentGrade;
     }
+
+    public double GetGradeTotal (Student stuObject)
+    {
+        return studentGrade + stuObject.studentGrade;
+    }
 }

@@ -1,3 +1,5 @@
+using System.Security.Cryptography.X509Certificates;
+
 class Professor 
 {
     public string profName { get; set; } = string.Empty;
@@ -12,6 +14,11 @@ class Professor
     public double GetSalary ()
     {
         return salary;
+    }
+
+    public double GetSalaryDifference (Professor profObject)
+    {
+      return salary > profObject.salary ? salary - profObject.salary : profObject.salary - salary;
     }
 
 }
