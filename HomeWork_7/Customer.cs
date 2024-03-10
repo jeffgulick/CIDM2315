@@ -1,8 +1,8 @@
 class Customer
 {
     private int cus_id;
-    public string cus_name;
-    public int cus_age;
+    public string cus_name { get; set; }
+    public int cus_age { get; set; }
 
     public Customer (int cus_id, string cus_name, int cus_age)
     {
@@ -10,7 +10,11 @@ class Customer
         this.cus_name = cus_name;
         this.cus_age = cus_age;
     }
- 
+    
+    //encap using properties
+    // public int Cus_Id { get => cus_id; set => cus_id = value; }
+
+    // encap using methods
     public void ChangeID(int new_id)
     {
         cus_id = new_id;
@@ -23,7 +27,6 @@ class Customer
 
     public void CompareAge(Customer objCustomer)
     {
-        
         if(objCustomer.cus_age > cus_age){
             Console.WriteLine($"{objCustomer.cus_name} is older.");
         }
@@ -32,8 +35,6 @@ class Customer
         }
         else{
             Console.WriteLine($"{objCustomer.cus_name} and {cus_name} are the same age.");
-        };
-        
+        }; 
     }
-
 }
