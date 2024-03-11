@@ -10,13 +10,9 @@ class Program
         _cus1.PrintCusInfo();
         _cus2.PrintCusInfo();
 
-        //using fields and methods
-        _cus1.ChangeID(220);
-        _cus2.ChangeID(221);
-
         //using properties
-        // _cus1.Cus_Id = 220;
-        // _cus2.Cus_Id = 221;
+        _cus1.Cus_Id = 220;
+        _cus2.Cus_Id = 221;
 
         _cus1.PrintCusInfo();
         _cus2.PrintCusInfo();

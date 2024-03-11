@@ -3,6 +3,9 @@ class Customer
     private int cus_id;
     public string cus_name { get; set; }
     public int cus_age { get; set; }
+        //encap using properties
+    public int Cus_Id { get => cus_id; set => cus_id = value; }
+
 
     public Customer (int cus_id, string cus_name, int cus_age)
     {
@@ -11,15 +14,6 @@ class Customer
         this.cus_age = cus_age;
     }
     
-    //encap using properties
-    // public int Cus_Id { get => cus_id; set => cus_id = value; }
-
-    // encap using methods
-    public void ChangeID(int new_id)
-    {
-        cus_id = new_id;
-    }
-
     public void PrintCusInfo ()
     {
         Console.WriteLine($"Customer: {cus_id}, Name: {cus_name}, Age: {cus_age}");
