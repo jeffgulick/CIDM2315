@@ -1,0 +1,12 @@
+/home/jeffg/schoolProjects/CIDM2315/unit-testing-using-dotnet-test/unit-testing-using-dotnet-test/PrimeService/bin/Debug/net8.0/PrimeService.deps.json
+/home/jeffg/schoolProjects/CIDM2315/unit-testing-using-dotnet-test/unit-testing-using-dotnet-test/PrimeService/bin/Debug/net8.0/PrimeService.dll
+/home/jeffg/schoolProjects/CIDM2315/unit-testing-using-dotnet-test/unit-testing-using-dotnet-test/PrimeService/bin/Debug/net8.0/PrimeService.pdb
+/home/jeffg/schoolProjects/CIDM2315/unit-testing-using-dotnet-test/unit-testing-using-dotnet-test/PrimeService/obj/Debug/net8.0/PrimeService.GeneratedMSBuildEditorConfig.editorconfig
+/home/jeffg/schoolProjects/CIDM2315/unit-testing-using-dotnet-test/unit-testing-using-dotnet-test/PrimeService/obj/Debug/net8.0/PrimeService.AssemblyInfoInputs.cache
+/home/jeffg/schoolProjects/CIDM2315/unit-testing-using-dotnet-test/unit-testing-using-dotnet-test/PrimeService/obj/Debug/net8.0/PrimeService.AssemblyInfo.cs
+/home/jeffg/schoolProjects/CIDM2315/unit-testing-using-dotnet-test/unit-testing-using-dotnet-test/PrimeService/obj/Debug/net8.0/PrimeService.csproj.CoreCompileInputs.cache
+/home/jeffg/schoolProjects/CIDM2315/unit-testing-using-dotnet-test/unit-testing-using-dotnet-test/PrimeService/obj/Debug/net8.0/PrimeService.sourcelink.json
+/home/jeffg/schoolProjects/CIDM2315/unit-testing-using-dotnet-test/unit-testing-using-dotnet-test/PrimeService/obj/Debug/net8.0/PrimeService.dll
+/home/jeffg/schoolProjects/CIDM2315/unit-testing-using-dotnet-test/unit-testing-using-dotnet-test/PrimeService/obj/Debug/net8.0/refint/PrimeService.dll
+/home/jeffg/schoolProjects/CIDM2315/unit-testing-using-dotnet-test/unit-testing-using-dotnet-test/PrimeService/obj/Debug/net8.0/PrimeService.pdb
+/home/jeffg/schoolProjects/CIDM2315/unit-testing-using-dotnet-test/unit-testing-using-dotnet-test/PrimeService/obj/Debug/net8.0/ref/PrimeService.dll
