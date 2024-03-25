@@ -1,7 +1,4 @@
-﻿using System.Runtime.CompilerServices;
-using System.Transactions;
-
-namespace HomeWork_8;
+﻿namespace HomeWork_8;
 
 class Program
 {
