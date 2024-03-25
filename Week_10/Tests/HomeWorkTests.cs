@@ -1,10 +1,10 @@
 namespace Tests;
 
-public class UnitTest1
+public class HomeWorkTests
 {
     [Fact]
     public void Test1()
     {
-
+        
     }
 }
