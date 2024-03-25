@@ -26,6 +26,7 @@ class Program
         foreach(int num in Q2_3){
                 Console.Write(num +" ");
         }
+        Console.WriteLine();
     }
         
 
@@ -77,8 +78,4 @@ class Program
          }
          return new_array; 
     }  
-
-
-
-
 }
