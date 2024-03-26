@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "C3vTlddLxWhtssnvMIxWjFPtoJcRhmB0rvTWvb0pj9lLJXIwxnGRk5FuCTcgSsjYhMmHbLp2uTHF7SXs/bKwIQ==",
+  "dgSpecHash": "FUk9JWVa7i1lacRJ+VIXHsdARNa0NF8A4jQmxlhd+MNI7D4T3yhhQ5muYUP4PMdEecBBlWAsRO6SoPDq5oGw1Q==",
   "success": true,
   "projectFilePath": "/home/jeffg/schoolProjects/CIDM2315/unit-testing-using-dotnet-test/unit-testing-using-dotnet-test/PrimeService.Tests/PrimeService.Tests.csproj",
   "expectedPackageFiles": [

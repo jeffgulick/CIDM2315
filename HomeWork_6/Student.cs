@@ -1,3 +1,4 @@
+namespace HomeWork_6;
 class Student 
 {
     public string studentName = string.Empty;

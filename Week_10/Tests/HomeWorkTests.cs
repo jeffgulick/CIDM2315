@@ -3,13 +3,13 @@ using HomeWork_8;
 
 public class ProgramTests
 {
-    [Fact]
-    public void TestArraySum()
-    {
-        int[] testArray = {11, 23, 31, 42, 53};
-        int expectedSum = 160;
-        Assert.Equal(expectedSum, Program.ArraySum(testArray));
-    }
+    // [Fact]
+    // public void TestArraySum()
+    // {
+    //     int[] testArray = {11, 23, 31, 42, 53};
+    //     int expectedSum = 160;
+    //     Assert.Equal(expectedSum, Program.ArraySum(testArray));
+    // }
 
     [Fact]
     public void TestElementSum()

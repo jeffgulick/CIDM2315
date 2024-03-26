@@ -10,8 +10,18 @@ class Program
         If the user input a letter rather than (A, B, C, D, F), then print “Wrong Letter Grade!”
         */
 
+
+        string s = "SoloLearn";
+
+        int x = s.Length;
+
+        int y = s.IndexOf("e");
+
+        Console.WriteLine(x%y);
+        int[ , , ] array = new int[4, 5, 3];
+
         Console.WriteLine("Please input a letter grade: (A, B, C, D, F)");
-        string grade = Console.ReadLine().ToUpper();
+        string grade = Console.ReadLine()!.ToUpper();
 
         switch (grade)
         {

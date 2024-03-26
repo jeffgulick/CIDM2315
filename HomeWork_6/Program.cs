@@ -1,4 +1,5 @@
-﻿namespace HomeWork_6;
+﻿namespace HomeWork_6
+{
 
 class Program
 {
@@ -35,4 +36,5 @@ class Program
         Console.WriteLine($"Student {s1.studentName} enrolls in {s1.classEnroll}, and the grade is: {s1.GetGrade()}\nStudent {s2.studentName} enrolls in {s2.classEnroll}, and the grade is: {s2.GetGrade()}");
         Console.WriteLine($"The Salary difference between {p1.profName} and {p2.profName} is: {p1.GetSalaryDifference(p2)}\nThe total grade of {s1.studentName} and {s2.studentName} is: {s1.GetGradeTotal(s2)}");
     }
+}
 }

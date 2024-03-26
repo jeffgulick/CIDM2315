@@ -1,5 +1,4 @@
-using System.Security.Cryptography.X509Certificates;
-
+namespace HomeWork_6;
 class Professor 
 {
     public string profName { get; set; } = string.Empty;
