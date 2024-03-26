@@ -3,7 +3,7 @@ namespace Array_Practice;
 
 public class ArrayFun
 {
-    public int[]? int_arr { get; set; } 
+    public int[]? int_arr { get; set; }
     public int[,]? array_2d { get; set; }
 
     public static int ArraySum(int[] arr)
