@@ -7,6 +7,7 @@ public class Student
     public static List<Student> studentList = new List<Student>();
     public static Dictionary<string, double> gradebook = new Dictionary<string, double>();
 
+
     public Student(int inputStudentID, string inputStudentName)
     {
         studentID = inputStudentID;
@@ -17,6 +18,17 @@ public class Student
     public void PrintInfo()
     {
         Console.WriteLine($"Student ID: {studentID}, Student Name: {studentName}");
+    }
+
+    public static bool CheckGradeBook(string name, double gpa)
+    {
+        bool checkIfAdded = false;
+        if(!gradebook.ContainsKey(name))
+        {
+            gradebook.Add(name, gpa);
+            checkIfAdded = !checkIfAdded;
+        }
+        return checkIfAdded;
     }
 
     public static double CalculateAverageGPA()

@@ -15,9 +15,9 @@ class Program
         Student.gradebook.Add(stu_3.studentName!, 2.5);
         Student.gradebook.Add(stu_4.studentName!, 1.8);
 
-        if(!Student.gradebook.ContainsKey("Tom"))
+        if(Student.CheckGradeBook("Tom", 3.3))
         {
-            Student.gradebook.Add("Tom", 3.3);
+            Student stu_5 = new Student(555, "Tom");
         }
 
         double averageGrade = Student.CalculateAverageGPA();
@@ -62,5 +62,17 @@ public class Student
             }
         }
     }
+
+        public static bool CheckGradeBook(string name, double gpa)
+    {
+        bool checkIfAdded = false;
+        if(!gradebook.ContainsKey(name))
+        {
+            gradebook.Add(name, gpa);
+            checkIfAdded = !checkIfAdded;
+        }
+        return checkIfAdded;
+    }
+
 
 }
