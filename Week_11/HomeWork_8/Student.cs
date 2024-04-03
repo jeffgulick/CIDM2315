@@ -4,8 +4,8 @@ public class Student
 {
     public int studentID { get; private set; }
     public string? studentName { get; private set; }
-    public static List<Student> studentList = new List<Student>();
-    public static Dictionary<string, double> gradebook = new Dictionary<string, double>();
+    private static List<Student> studentList = new List<Student>();
+    private static Dictionary<string, double> gradebook = new Dictionary<string, double>();
 
 
     public Student(int inputStudentID, string inputStudentName)
@@ -25,10 +25,15 @@ public class Student
         bool checkIfAdded = false;
         if(!gradebook.ContainsKey(name))
         {
-            gradebook.Add(name, gpa);
+            AddGrade(name, gpa);
             checkIfAdded = !checkIfAdded;
         }
         return checkIfAdded;
+    }
+
+    public static void AddGrade(string studentName, double grade)
+    {
+        gradebook.Add(studentName, grade);
     }
 
     public static double CalculateAverageGPA()
@@ -47,4 +52,11 @@ public class Student
         }
     }
 
+    public static void PrintGradeBook()
+    {
+        foreach (var item in gradebook)
+        {
+            Console.WriteLine($"Student Name: {item.Key}, GPA: {item.Value}");
+        }
+    }
 }
